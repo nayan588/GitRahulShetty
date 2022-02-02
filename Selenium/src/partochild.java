@@ -10,6 +10,9 @@ public class partochild {
 		 WebDriver driver=new ChromeDriver();
 		 driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText()); 
+		 System.out.println("Hello 1 line");
+		 System.out.println("Hello 2 line");
+		 
 	}
 
 }
