@@ -9,6 +9,9 @@ public class Selintro {
 		 WebDriver driver=new ChromeDriver();
 		 driver.get("https://stage-journey.urbanbuz.com/site/login");
 		 System.out.println("The url is : "+driver.getCurrentUrl());
+		 System.out.println("Hello 1 line");
+		 System.out.println("Hello 2 line");
+		 
 		// driver.close();
 
 	}
